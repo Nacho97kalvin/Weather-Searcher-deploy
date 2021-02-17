@@ -1,0 +1,75 @@
+.header{
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    background-color: #07123c;
+    color: rgb(195, 205, 214);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.header > div > h1{
+    margin-left: 15px;
+}
+.header> div>h3{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.header> h3{
+    position: absolute;
+    right: 0;
+    margin-right: 15px;
+}
+.header > h3>a{
+    color: rgb(195, 205, 214);
+}
+.menu{
+    min-height: 85vh;
+    width: 100vw;
+    background: rgb(45,52,54);
+    background: linear-gradient(333deg, rgba(45,52,54,1) 31%, rgba(99,110,114,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.map{
+    height: 70vh;
+    width: 70vw;
+}
+/* -----------------selectores---------------- */
+.changes{
+    height: 70vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.changes>h2{
+    font-size: 1.4rem;
+    color: blanchedalmond;
+}
+.changes> select{
+    align-self: flex-end;
+    width: 100%;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.changes>p{
+    color: rgb(216, 212, 226);
+}
+.changes>p>a{
+    color: bisque;
+}
+.changes > h3{
+    font-size: 1.2rem;
+}
+.changes>a{
+    color: bisque;
+
+}
+@media  only screen and (max-width: 800px){
+    .menu{
+        flex-direction: column;
+    }
+}
